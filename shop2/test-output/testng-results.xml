@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="3" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="formos" duration-ms="15555" started-at="2020-03-17T14:28:20 EET" finished-at="2020-03-17T14:28:35 EET">
+    <groups>
+    </groups>
+    <test name="formos2" duration-ms="15555" started-at="2020-03-17T14:28:20 EET" finished-at="2020-03-17T14:28:35 EET">
+      <class name="tests.forms.ContactUsForm">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.forms.ContactUsForm@27fe3806]" name="beforeClass" is-config="true" duration-ms="7171" started-at="2020-03-17T14:28:20 EET" finished-at="2020-03-17T14:28:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="c1()[pri:0, instance:tests.forms.ContactUsForm@27fe3806]" name="c1" duration-ms="9" started-at="2020-03-17T14:28:27 EET" finished-at="2020-03-17T14:28:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c1 -->
+        <test-method status="FAIL" signature="c2()[pri:0, instance:tests.forms.ContactUsForm@27fe3806]" name="c2" duration-ms="5" started-at="2020-03-17T14:28:27 EET" finished-at="2020-03-17T14:28:27 EET">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:92)
+at org.junit.Assert.assertTrue(Assert.java:43)
+at org.junit.Assert.assertTrue(Assert.java:54)
+at tests.forms.ContactUsForm.c2(ContactUsForm.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c2 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.forms.ContactUsForm@27fe3806]" name="afterClass" is-config="true" duration-ms="1189" started-at="2020-03-17T14:28:27 EET" finished-at="2020-03-17T14:28:28 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.forms.ContactUsForm -->
+      <class name="tests.forms.RegisterForm">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.forms.RegisterForm@69379752]" name="beforeClass" is-config="true" duration-ms="8071" started-at="2020-03-17T14:28:20 EET" finished-at="2020-03-17T14:28:28 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="r1()[pri:0, instance:tests.forms.RegisterForm@69379752]" name="r1" duration-ms="6666" started-at="2020-03-17T14:28:28 EET" finished-at="2020-03-17T14:28:35 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- r1 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.forms.RegisterForm@69379752]" name="afterClass" is-config="true" duration-ms="782" started-at="2020-03-17T14:28:35 EET" finished-at="2020-03-17T14:28:35 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.forms.RegisterForm -->
+    </test> <!-- formos2 -->
+  </suite> <!-- formos -->
+</testng-results>

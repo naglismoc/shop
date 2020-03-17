@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="formos" parallel="classes" thread-count="4">
+  <test name="formos2">
+    <classes>
+      <class name="tests.forms.RegisterForm">
+      	<methods>
+			<include name="r1"></include>
+		</methods>
+      </class>
+     <class name="tests.forms.ContactUsForm">
+     	<methods>
+			<exclude name="c3"></exclude>
+		</methods>
+     </class> 
+     
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
